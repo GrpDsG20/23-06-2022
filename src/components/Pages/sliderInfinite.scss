@@ -1,0 +1,33 @@
+.tablaM{
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  background-color: rebeccapurple;
+}
+
+.grid-container {
+  width: 80%;
+  display: grid;
+  box-sizing: content-box;
+  grid-template-columns: auto auto auto auto auto auto;
+  background-color: #2196F3;
+  margin: auto;
+  padding: 10px;
+  gap: 70px;
+
+};
+   
+.grid-item {
+  display:absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  width: 200px;
+  height: 20px;
+  text-align: center;
+  margin: auto;   
+}   
+
+.grid-item img{
+  background-size: cover;
+}
